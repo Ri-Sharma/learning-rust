@@ -1,1 +1,55 @@
 .vs/
+# Compiled binary and dependency artifacts
+/target/
+**/*.rs.bk
+
+# Package manager lock files (optional)
+Cargo.lock
+.cargo/
+
+# Generated documentation
+/target/doc/
+
+# Output of tests
+/tests/output/
+
+# Incremental compilation files
+/target/debug/incremental/
+
+# Temporary files during compilation
+/target/debug/.fingerprint/
+/target/release/.fingerprint/
+
+# Profiling data and debug output
+*.profraw
+*.profdata
+
+# IDE and Editor Specific Settings
+.idea/
+*.iml
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Rust Analyzer specific
+/.rust-analyzer.json
+/.rust-info.json
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Byte-compiled Python files (if used for scripts)
+/__pycache__/
+*.py[cod]
+
+# Ignore custom extension or backup files
+*.old
+*.bkS
